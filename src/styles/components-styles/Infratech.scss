@@ -1,0 +1,50 @@
+.infratech{
+    font-family: "avenir", Sans-serif !important;
+    width: 100%;
+    height: auto;
+    background-color: #F7F7FF;
+    padding: 40px;
+    padding-top: 60px!important;
+    h1{
+        font-size: 50px;
+    }
+    .p-service{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    font-weight: bold;
+    p{
+        font-size: 23px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 20px !important;
+        text-align: center;
+        color: #32384F;
+        font-size: 21px;
+        line-height: 40px;
+    }
+    @media(max-width:780px){
+        padding-left: 8px;
+        padding-right: 8px;
+        h1{
+            font-size: 17px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 30px;
+    
+        }
+        .p-service{
+            font-size: 20px;
+            text-align: left !important;
+            line-height: 40px;
+            }
+    }
+}
+.banking{
+    width: 100% !important;
+    margin-bottom: 40px;
+
+}

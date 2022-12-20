@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
+.div-count {
+    display: flex;
+    font-family: 'ITC Avant Garde Gothic Std Bold', sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #F7F7FF;
+
+    @media(max-width:780px) {
+        flex-direction: column;
+    }
+
+    .div-numbers {
+        width: 244px;
+        height: 162;
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        border-color: #C8CBD5;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin: 0px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    p {
+        font-family: "Poppins", Sans-serif !important;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 23px;
+
+    }
+
+    .text-title {
+        text-align: center;
+        font-size: 69px !important;
+        color: #32384F;
+        font-family: avat;
+        font-weight: 200;
+        font-weight: bold;
+        height: 50px;
+
+    }
+
+}
+
+@media(max-width:780px) {
+    .div-numbers {
+        width: 100% !important;
+        border: none !important;
+    }
+
+    .text-tit {
+        height: 90px !important;
+        ;
+        padding-top: 30px !important;
+    }
+}

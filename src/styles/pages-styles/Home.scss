@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+.content-home {
+    width: 100%;
+    padding: 0;
+    height: auto !important;
+    background-color: #F7F7FF;
+
+    .containner {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    @media(max-width:980px) {
+        .containner {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}

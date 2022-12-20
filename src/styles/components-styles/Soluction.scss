@@ -1,0 +1,19 @@
+.fixed-soluction{
+    width: 380px;
+    height: 100px;
+    background-image: url("../../../public/assets/melhorsolucaodesk.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    @media(max-width:780px){
+        background-image: url("../../../public/assets/melhorsolucaomobile.png");
+        width: 90px;
+        height: 90px;
+        bottom: 40px;
+        right: 10px;
+    }
+}
